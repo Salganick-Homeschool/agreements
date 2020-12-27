@@ -3,21 +3,29 @@
     margin-right: 72%;
     border-radius: 10px;
     margin-left: 10%;
-    /*Creates an entrance animation */
-    transition:1s;
     color:black;
-    background-color:yellow
+    background-color:yellow;
+    width: 30vw;
+    transition:1s;
 }
 a {
+    transition:10s;
     text-decoration: none;
+    color: red;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline dotted blue;
+    transition:3s;
 }
 .agreementCard:hover {
     background-color:black;
     color:yellow;
     border-radius: 5px;
     transition:1s;
-    cursor:pointer;
+}
+nav {
+    position:fixed;
+}
+body {
+    transition:10s
 }
